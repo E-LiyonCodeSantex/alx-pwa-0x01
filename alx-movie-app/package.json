@@ -1,27 +1,30 @@
 {
-  "name": "next-pwa",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "alx-movie-app",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/E-LiyonCodeSantex/alx-pwa-0x01.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/E-LiyonCodeSantex/alx-pwa-0x01/issues"
-  },
-  "homepage": "https://github.com/E-LiyonCodeSantex/alx-pwa-0x01#readme",
   "dependencies": {
-    "@ducanh2912/next-pwa": "^10.2.9"
+    "@fortawesome/fontawesome-svg-core": "^7.0.0",
+    "@fortawesome/free-brands-svg-icons": "^7.0.0",
+    "@fortawesome/react-fontawesome": "^0.2.3",
+    "next": "15.4.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "webpack": "^5.94.0"
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
